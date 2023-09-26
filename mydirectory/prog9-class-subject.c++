@@ -40,8 +40,7 @@ public:
             sum += marks[i];
         }
         percentage = static_cast<float>(sum) / totalMarks * 100;
-        average= sum/5;
-        
+        average = sum / 5;
     }
 
     void showStudent()
@@ -55,7 +54,7 @@ public:
             cout << "Subject " << i + 1 << " marks: " << marks[i] << endl;
         }
         cout << "Student Percentage: " << percentage << "%" << endl;
-        cout << "student average : " << average  << endl;
+        cout << "student average : " << average << endl;
     }
 };
 
@@ -66,12 +65,8 @@ int main()
     cout << "Enter details for student 1:" << endl;
     student1.getStudent();
 
-    
-
     cout << "\nStudent 1 details:" << endl;
     student1.showStudent();
-
-   
 
     return 0;
 }

@@ -1,12 +1,11 @@
 /* greate  a class student consist of student name age & percentage as data members.
-inclue two member fuction get student & show student which will accept & display 
+inclue two member fuction get student & show student which will accept & display
 the value of studentwrite a c++ program  to declare two objects of the class &
  accessed the method*/
 
- #include <iostream>
+#include <iostream>
 #include <string>
 using namespace std;
-
 class Student
 {
 private:
@@ -20,7 +19,7 @@ public:
         cout << "Enter student name: ";
         cin.ignore(); // Clear the input buffer
         getline(cin, name);
-        
+
         cout << "Enter student age: ";
         cin >> age;
 

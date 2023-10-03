@@ -1,4 +1,4 @@
-/*write a c++ program od student marks*/
+/*write a c++ program of student marks*/
 #include <iostream>
 using namespace std;
 

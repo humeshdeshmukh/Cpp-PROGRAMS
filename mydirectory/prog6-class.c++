@@ -1,4 +1,4 @@
-/*wite a c++ program of class abc content private public sets*/
+/*write a c++ program of class abc content private public sets*/
 
 #include <iostream>
 using namespace std;

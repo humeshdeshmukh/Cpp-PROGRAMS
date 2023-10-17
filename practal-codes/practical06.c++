@@ -49,6 +49,7 @@ public:
 int main() // Added the return type 'int' to main()
 {
     student s1, s2("Humesh", 18, 92.71);
+    cout <<"Humesh Deshmukh \n Roll.No:34"<<endl;
 
     cout << "After object creation" << endl;
     s1.showstudent();

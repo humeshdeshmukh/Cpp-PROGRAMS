@@ -1,17 +1,15 @@
-/* write a c++ program using standard library fuction */   /*correct this*/
+/* write a c++ program using standard library fuction */ 
 #include <iostream>
-#include <string.h>
+#include <cstring> // Include the <cstring> header for C-style string functions
 using namespace std;
-int pallindromestring(char(*s))
-{
-    int i, j, flag = 0;
-    i = 0;
-    j = 0;
-    while (s[j] != '\0')
-    {
-        j++;
-    }
-    j--;
+
+int pallindromestring(char s[])
+{ // Use char array as in the original code
+    int i = 0;
+    int j = strlen(s) - 1; // Calculate the length of the string using strlen
+
+    int flag = 0;
+
     while (i < j)
     {
         if (s[i] != s[j])
@@ -19,23 +17,29 @@ int pallindromestring(char(*s))
             flag = 1;
             break;
         }
-        j++;
+        i++;
         j--;
     }
+
     if (flag == 0)
     {
-        cout << "pallindrome string :" << endl;
+        cout << "Palindrome string :" << endl;
     }
     else
     {
-        cout << "not pallindrome number" << endl;
+        cout << "Not a palindrome string" << endl;
     }
+
     return 0;
 }
+
 int main()
 {
     char s1[10];
-    cout << " enter string " << endl;
+    cout << "Enter string: ";
     cin >> s1;
+
     pallindromestring(s1);
+
+    return 0;
 }

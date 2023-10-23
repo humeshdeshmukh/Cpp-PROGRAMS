@@ -1,4 +1,4 @@
-/* greate  a class student consist of student name age & percentage as data members.
+/* create  a class student consist of student name age & percentage as data members.
 inclue two member fuction get student & show student which will accept & display
 the value of studentwrite a c++ program  to declare two objects of the class &
  accessed the method*/

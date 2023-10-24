@@ -1,3 +1,4 @@
+/*write a c++ program of constructor*/
 #include <iostream>
 #include <iomanip>
 using namespace std;

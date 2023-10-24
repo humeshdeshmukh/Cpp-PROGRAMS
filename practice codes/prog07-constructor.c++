@@ -7,7 +7,7 @@ private:
     int a, b;
 
 public:
-    ABC() // Constructor
+    ABC() // constructor
     {
         a = 120;
         b = 450;
@@ -15,19 +15,15 @@ public:
 
     void showab()
     {
-        cout << endl
-             << "A: " << a;
-        cout << endl
-             << "B: " << b;
+        cout << "A:" << a << endl;
+        cout << "B:" << b << endl;
     }
 
     void getab()
     {
-        cout << endl
-             << "Enter the value of A: ";
+        cout << "enter the value of Ac:" << endl;
         cin >> a;
-        cout << endl
-             << "Enter the value of B: ";
+        cout << "enter the value of B:" << endl;
         cin >> b;
     }
 };
@@ -36,7 +32,7 @@ int main()
 {
     ABC a1, a2;
 
-    cout << "After object construction:" << endl;
+    cout << "After object construction :" << endl;
     a1.showab();
     a2.showab();
 

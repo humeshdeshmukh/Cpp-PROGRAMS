@@ -1,3 +1,4 @@
+/*write a c++ program of  default parametric  constructor program */
 #include <iostream>
 #include <cstring>
 using namespace std;

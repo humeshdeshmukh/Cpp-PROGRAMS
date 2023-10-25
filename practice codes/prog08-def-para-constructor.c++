@@ -1,3 +1,5 @@
+/*write a c++ program of  default parametric  constructor program */
+
 #include <iostream>
 #include <cstring>
 using namespace std;
@@ -14,11 +16,10 @@ public:
     student()
     {
         name[0] = '\0'; // Initialize the name as an empty string
-        age = 0;        // Initialize age to 0
-        per = 0.0;      // Initialize per to 0.0
+        age = 0;
+        per = 0.0;
     }
-
-    // Parameterized constructor
+    // Parametrized constructor
     student(char *n, int a, float p)
     {
         strcpy(name, n); // Use strcpy to copy the name
@@ -46,9 +47,9 @@ public:
 
 int main()
 {
-    student s1, s2("Humesh", 18, 92.71);
+    student s1, s2("Humesh", 18, 92);
 
-    cout << "After object creation" << endl;
+    cout << "After object creation:" << endl;
     s1.showstudent();
     s2.showstudent();
 
@@ -56,9 +57,9 @@ int main()
     s1.getstudent();
     s2.getstudent();
 
-    cout << "Student 1: ";
+    cout << "Student 1:" << endl;
     s1.showstudent();
-    cout << "Student 2: ";
+    cout << "Student 2:" << endl;
     s2.showstudent();
 
     return 0;

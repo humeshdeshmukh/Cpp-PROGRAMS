@@ -1,0 +1,16 @@
+/*write a c++ program  to convert any string into its  equivalnet lower case form*/
+
+#include <iostream>
+#include <string.h>
+
+using namespace std;
+int main()
+{
+    char s[10];
+    cout << "enter any string :" << endl;
+    cin >> s;
+    cout << "string entred =" << s << endl;
+    strlwr(s);
+    cout << "string in lowercase =" << s << endl;
+    return 0;
+}

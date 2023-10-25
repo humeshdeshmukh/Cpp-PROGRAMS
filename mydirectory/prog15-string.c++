@@ -6,7 +6,7 @@ using namespace std;
 int main()
 {
     char s[10];
-    cout << "enter ant string " << endl;
+    cout << "enter any string " << endl;
     cin >> s;
     cout << "string entered =" << s << endl;
     strlwr(s);

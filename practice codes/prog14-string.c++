@@ -2,10 +2,14 @@
 
 #include <iostream>
 #include <string.h>
- using namespace std;
- int main()
- {
-     char s1[10],s2[10];
-     cout <<" Enter any string :"<<endl;
-     
- }
+using namespace std;
+int main()
+{
+    char s1[10], s2[10];
+    cout << " Enter any string :" << endl;
+    cin >> s1;
+    strcpy(s2, s1);
+    cout << "origined string =" << s1 << endl;
+    cout << "copied string =" << s2 << endl;
+    return 0;
+}

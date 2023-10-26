@@ -21,7 +21,7 @@ void reverseString(char *s)
 
 int main()
 {
-    char s[50]; // Increase the size to accommodate larger strings
+    char s[50]; 
     cout << "\nEnter any string: ";
     cin.getline(s, sizeof(s)); // Use getline to read the whole line
 

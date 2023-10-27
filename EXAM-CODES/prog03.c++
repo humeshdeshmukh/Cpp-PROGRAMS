@@ -47,4 +47,3 @@ int main()
     employee2.showEmployee();
     return 0;
 }
-

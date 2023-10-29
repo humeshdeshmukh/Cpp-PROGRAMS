@@ -1,6 +1,6 @@
 /*24. Implement a code in C++ using hex, dec, oct, and setbase manipulators:*/
 
-/*write a c++  program of hex  dex oct */
+/*write a c++  program of hex  dex oct and set base  */
 #include <iostream>
 #include <iomanip>
 using namespace std;

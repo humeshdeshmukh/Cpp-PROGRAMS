@@ -23,7 +23,7 @@ public:
     // Parameterized constructor
     student(char *n, int a, float p)
     {
-        strcpy(name, n); // Use strcpy to copy the name
+        strcpy(name, n); 
         age = a;
         per = p;
     }

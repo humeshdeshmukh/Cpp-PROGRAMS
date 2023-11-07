@@ -1,4 +1,5 @@
-/*write a c++ program of distructor*/
+/*write  a program in c++ to implement concept of constructor and disctructor*/
+
 #include <iostream>
 using namespace std;
 
@@ -21,6 +22,7 @@ private:
 
 int main()
 {
+    cout << "Humesh Deshmukh \n Roll.No 34" << endl;
     ABC a1(1); // Object 1 created
     {
         ABC a2(2); // Object 2 created

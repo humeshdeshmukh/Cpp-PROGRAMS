@@ -1,3 +1,9 @@
+/* Implement a hierarchy of shapes in a geometric application. The 
+base class should be a generic Shape, and derived classes can include Circle, 
+Rectangle, and Triangle. Each derived class should inherit common properties from 
+the base class and implement its own methods to calculate area and perimeter*/
+
+
 #include <iostream>
 #include <cmath> // Instead of <math.h>
 

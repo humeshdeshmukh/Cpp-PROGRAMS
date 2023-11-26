@@ -10,11 +10,8 @@ int main()
     {
         cout << "largest number =" << a;
     }
-    else
+    else if (b > a)
     {
-        if (b > a)
-        {
-            cout << "largest number=" << b;
-        }
+        cout << "largest number=" << b;
     }
 }

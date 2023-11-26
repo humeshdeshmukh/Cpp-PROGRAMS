@@ -8,7 +8,7 @@ int main()
     char s[10];
     cout << "\n enter any string: ";
     cin >> s;
-    cout << "\n string entered : " << s;
+    cout << "\n string entered : " << s << endl;
     strrev(s);
-    cout << "\n revier string = " << s;
+    cout << "\n revier string = " << s << endl;
 }

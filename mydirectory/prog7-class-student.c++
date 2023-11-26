@@ -53,3 +53,26 @@ int main()
 
     return 0;
 }
+
+/*int main() {
+    char choice;
+    Student student;
+    bool continueEntering = true;
+
+    while (continueEntering) {
+        cout << "Enter details for a student:" << endl;
+        student.getStudent();
+
+        cout << "\nStudent details:" << endl;
+        student.showStudent();
+
+        cout << "\nDo you want to enter details for another student? (Y/N): ";
+        cin >> choice;
+
+        if (choice != 'Y' && choice != 'y') {
+            continueEntering = false;
+        }
+    }
+
+    return 0;
+}*/

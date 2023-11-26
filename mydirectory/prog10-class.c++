@@ -39,3 +39,42 @@ int main()
 
     return 0;
 }
+
+/*#include <iostream>
+using namespace std;
+
+class ABC {
+private:
+    int abc;
+
+public:
+    void getab() {
+        cout << "Enter value for abc: ";
+        cin >> abc;
+    }
+
+    void showab() {
+        cout << "abc value is: " << abc << endl;
+    }
+};
+
+int main() {
+    int num;
+    cout <<"enter number of objects "<<endl;
+    cin >>num;
+    const int numObjects = num; // Change this to the number of objects you want
+    ABC objects[numObjects];
+
+    for (int i = 0; i < numObjects; ++i) {
+        cout << "Get values for object " << i + 1 << ".abc" << endl;
+        objects[i].getab();
+    }
+
+    for (int i = 0; i < numObjects; ++i) {
+        cout << "Object " << i + 1 << ".abc values are:" << endl;
+        objects[i].showab();
+    }
+
+    return 0;
+}
+*/

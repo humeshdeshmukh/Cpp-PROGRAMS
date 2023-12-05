@@ -1,4 +1,4 @@
-/*write a c++ program to find the length of string using and without using std library function*/
+/*write a c++ program to find the length of string  without using std library function*/
 
 #include <iostream>
 #include <string.h>

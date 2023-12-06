@@ -29,7 +29,7 @@ public:
 };
 int main()
 {
-    cout << "Humesh Deshmukh \n Roll.No:34" << endl;
+  
     ABC A1, A2(100), A3;
     ABC AB(50, 60);
     A1.show();

@@ -21,7 +21,7 @@ private:
 
 int main()
 {
-    cout << "HUMESH DESHMUKH \n Roll.No 34" << endl;
+    
     ABC a1(1); // Object 1 created
     {
         ABC a2(2); // Object 2 created

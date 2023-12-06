@@ -17,7 +17,7 @@ int string_length(char *s)
 int main()
 {
     char s[10];
-    cout << "\nName:Humesh Deshmukh\nRoll no:34" << endl;
+ 
     cout << "\nEnter any string :";
     cin >> s;
     cout << "\nLength of the string=" << string_length(s) << endl;

@@ -19,7 +19,7 @@ public:
 
 int main()
 {
-    cout << "Humesh Deshmukh \n roll.no:34" << endl;
+    
     // Create an object of MyClass
     MyClass myObject;
 

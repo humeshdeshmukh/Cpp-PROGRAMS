@@ -96,7 +96,7 @@ int main()
     Circle circle(4.0);
     Rectangle rectangle(4.0, 6.0);
     Triangle triangle(3.0, 4.0, 5.0);
-    cout << "Name=HUMESH DESHMUKH \n roll no = 34" << endl;
+
     cout << "Circle - Area: " << circle.calculateArea() << ", Perimeter: " << circle.calculatePerimeter() << "\n";
     cout << "Rectangle - Area: " << rectangle.calculateArea() << ", Perimeter: " << rectangle.calculatePerimeter() << "\n";
     cout << "Triangle - Area: " << triangle.calculateArea() << ", Perimeter: " << triangle.calculatePerimeter() << "\n";

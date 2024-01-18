@@ -21,7 +21,7 @@ int main()
         cout << ch;
     }
 
-    fin.close(); // Close the file
+    fin.close(); // Close the files
 
     return 0;
 }

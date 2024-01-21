@@ -1,5 +1,4 @@
-/*write  a c++ code to overload unary++ and
-  unary-- operater such that it increment or decrement
+/*write  a c++ code to overload unary++ and unary-- operater such that it increment or decrement
    the values of the object by 1*/
 
 #include <iostream>

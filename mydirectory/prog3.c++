@@ -1,3 +1,4 @@
+/*write a c ++ program of manipulater of dec oct hex and setbase */
 #include <iostream>
 #include <iomanip>
 using namespace std;

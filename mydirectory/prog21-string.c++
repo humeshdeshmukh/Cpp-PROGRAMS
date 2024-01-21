@@ -19,4 +19,5 @@ int main()
     {
         cout << "Not pallindrome string " << endl;
     }
+    return 0;
 }

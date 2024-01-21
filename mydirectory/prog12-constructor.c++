@@ -13,12 +13,6 @@ public:
         b = 450;
     }
 
-    void showab()
-    {
-        cout << "A: " << a << endl;
-        cout << "B: " << b << endl;
-    }
-
     void getab()
     {
         cout  << "Enter the value of A: "<<endl;
@@ -26,6 +20,13 @@ public:
         cout << "Enter the value of B: "<<endl;
         cin >> b;
     }
+
+    void showab()
+    {
+        cout << "A: " << a << endl;
+        cout << "B: " << b << endl;
+    }
+
 };
 
 int main()
@@ -47,7 +48,8 @@ int main()
 /*#include <iostream>
 using namespace std;
 
-class ABC {
+class ABC
+{
 private:
     int a, b;
 
@@ -79,23 +81,25 @@ int main()
     ABC objects[numObjects];
 
     cout << "After object construction:" << endl;
-    for (int i = 0; i < numObjects; ++i) {
+    for (int i = 0; i < numObjects; ++i)
+    {
         cout << "Object " << i + 1 << " details:" << endl;
         objects[i].showab();
     }
 
     cout << "\nEnter values for objects:" << endl;
-    for (int i = 0; i < numObjects; ++i) {
+    for (int i = 0; i < numObjects; ++i)
+    {
         cout << "Enter details for object " << i + 1 << ":" << endl;
         objects[i].getab();
     }
 
     cout << "\nAfter calling getab() for each object:" << endl;
-    for (int i = 0; i < numObjects; ++i) {
+    for (int i = 0; i < numObjects; ++i)
+    {
         cout << "Object " << i + 1 << " details:" << endl;
         objects[i].showab();
     }
 
     return 0;
-}
-*/
+}*/

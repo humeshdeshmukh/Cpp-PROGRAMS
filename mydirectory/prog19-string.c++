@@ -1,4 +1,5 @@
 /*write a c++ program  to copy a string */
+
 #include <iostream>
 #include <cstring>
 using namespace std;
@@ -10,4 +11,5 @@ int main()
     strcpy(s2, s1);
     cout << "origined string =" << s1 << endl;
     cout << "copied string =" << s2 << endl;
+    return 0;
 }

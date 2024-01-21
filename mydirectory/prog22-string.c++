@@ -1,6 +1,6 @@
 /* write a c++ program using standard library fuction */
 #include <iostream>
-#include <cstring> // Include the <cstring> header for C-style string functions
+#include <cstring>    // Include the <cstring> header for C-style string functions
 using namespace std;
 
 int pallindromestring(char s[])

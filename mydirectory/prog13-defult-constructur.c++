@@ -49,7 +49,7 @@ int main()
 {
     student s1, s2("Humesh", 18, 92.71);
 
-    cout << "After object creation" << endl;
+    cout << "before object creation" << endl;
     s1.showstudent();
     s2.showstudent();
 

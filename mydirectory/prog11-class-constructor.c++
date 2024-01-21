@@ -1,7 +1,6 @@
 /*this code to get garbage value*/
 #include <iostream>
 using namespace std;
-
 class ABC
 {
 private:

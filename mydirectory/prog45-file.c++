@@ -13,7 +13,8 @@ int main()
         return 1;
     }
 
-    char str[300] = "time is a great teacher but unfortunately it kills all its pupils - Louis Hector Berlioz";
+    char str[300] = "time is a great teacher but unfortunately 
+    it kills all its pupils - Louis Hector Berlioz";
     fout << str;
     fout.close(); // Close the file
 

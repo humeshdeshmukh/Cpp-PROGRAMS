@@ -8,8 +8,7 @@ class ABC
 public:
     ABC()
     {
-        cout << endl
-             << "I am ABC";
+        cout << endl<< "I am ABC";
     }
 };
 class PQR : public ABC
@@ -17,8 +16,7 @@ class PQR : public ABC
 public:
     PQR()
     {
-        cout << endl
-             << "I am PQR";
+        cout << endl<< "I am PQR";
     }
 };
 class XYZ : public PQR
@@ -26,8 +24,7 @@ class XYZ : public PQR
 public:
     XYZ()
     {
-        cout << endl
-             << "I am XYZ";
+        cout << endl<< "I am XYZ";
     }
 };
 int main()

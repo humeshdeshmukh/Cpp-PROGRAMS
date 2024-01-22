@@ -1,6 +1,6 @@
 /* create  a class student consist of student name age & percentage as data members.
 inclue two member fuction get student & show student which will accept & display
-the value of studentwrite a c++ program  to declare two objects of the class &
+the value of student write a c++ program  to declare two objects of the class &
  accessed the method*/
 
 #include <iostream>
@@ -9,16 +9,24 @@ using namespace std;
 class Student
 {
 private:
-    string name;
+    char name[10];
     int age;
     double percentage;
 
 public:
+    student()
+    {
+        name[0] = '\0';   // Initialize the name as an empty string
+        age = 0;          // Initialize age to 0
+        percentage = 0.0; // Initialize per to 0.0
+    }
+
     void getStudent()
     {
         cout << "Enter student name: ";
-        cin.ignore(); // Clear the input buffer
-        getline(cin, name);
+        cin >> name;
+        /*cin.ignore(); // Clear the input buffer
+        getline(cin,name);*/
 
         cout << "Enter student age: ";
         cin >> age;
@@ -35,7 +43,7 @@ public:
     }
 };
 
-int main()
+ int main()
 {
     Student student1, student2;
 
@@ -54,12 +62,14 @@ int main()
     return 0;
 }
 
-/*int main() {
+/*int main()
+{
     char choice;
     Student student;
     bool continueEntering = true;
 
-    while (continueEntering) {
+    while (continueEntering)
+    {
         cout << "Enter details for a student:" << endl;
         student.getStudent();
 
@@ -69,7 +79,8 @@ int main()
         cout << "\nDo you want to enter details for another student? (Y/N): ";
         cin >> choice;
 
-        if (choice != 'Y' && choice != 'y') {
+        if (choice != 'Y' && choice != 'y')
+        {
             continueEntering = false;
         }
     }

@@ -1,5 +1,5 @@
 /*write a c++ program of constructor*/
-#include <iostream>
+/*#include <iostream>
 #include <iomanip>
 using namespace std;
 
@@ -9,8 +9,9 @@ private:
     int a, b;
 
 public:
-    void getab();
-    void showab();
+    void getab()
+
+        void showab()
 };
 
 void ABC::getab()
@@ -38,43 +39,48 @@ int main()
     b.showab();
 
     return 0;
-}
+}*/
 
-/*#include <iostream>
+#include <iostream>
 using namespace std;
 
-class ABC {
+class ABC
+{
 private:
     int abc;
 
 public:
-    void getab() {
+    void getab()
+    {
         cout << "Enter value for abc: ";
         cin >> abc;
     }
 
-    void showab() {
+    void showab()
+    {
         cout << "abc value is: " << abc << endl;
     }
 };
 
-int main() {
+int main()
+{
     int num;
-    cout <<"enter number of objects "<<endl;
-    cin >>num;
+    cout << "enter number of objects " << endl;
+    cin >> num;
     const int numObjects = num; // Change this to the number of objects you want
     ABC objects[numObjects];
 
-    for (int i = 0; i < numObjects; ++i) {
+    for (int i = 0; i < numObjects; ++i)
+    {
         cout << "Get values for object " << i + 1 << ".abc" << endl;
         objects[i].getab();
     }
 
-    for (int i = 0; i < numObjects; ++i) {
+    for (int i = 0; i < numObjects; ++i)
+    {
         cout << "Object " << i + 1 << ".abc values are:" << endl;
         objects[i].showab();
     }
 
     return 0;
 }
-*/

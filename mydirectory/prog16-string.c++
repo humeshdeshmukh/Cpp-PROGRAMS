@@ -22,3 +22,8 @@ int main()
 
     return 0;
 }
+/*for(int i=0;s[i]!='\0';i++)
+{
+    s[i]=topper(s[i]);
+}
+cout <<"string in uppercase:"<<s<<endl;*/

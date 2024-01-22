@@ -1,7 +1,9 @@
+/*write a c++ program  class member contaning collage name,branch,year,marks,percentage,average
+ and two member fuction getstudent & showstudent  for getvalues and displayvalues  in member fuction marks of 5 subjects*/
+
 #include <iostream>
 #include <string>
 using namespace std;
-
 class Student
 {
 private:
@@ -28,7 +30,7 @@ public:
         cout << "Enter marks for 5 subjects:" << endl;
         for (int i = 0; i < 5; ++i)
         {
-            cout << "Enter marks for subject " << i + 1 << ": ";
+            cout << "Enter marks for subject " << i + 1 << ":";
             cin >> marks[i];
         }
 
@@ -37,7 +39,8 @@ public:
         int sum = 0;
         for (int i = 0; i < 5; ++i)
         {
-            sum += marks[i];
+            //sum += marks[i];
+            sum=sum+marks[i];
         }
         percentage = static_cast<float>(sum) / totalMarks * 100;
         average = sum / 5;
@@ -58,7 +61,7 @@ public:
     }
 };
 
-int main()
+/*int main()
 {
     Student student1;
 
@@ -69,27 +72,30 @@ int main()
     student1.showStudent();
 
     return 0;
-}
+}*/
 
-/*int main() 
+int main()
+{
     char choice;
     Student student;
     bool continueEntering = true;
 
-    while (continueEntering) {
+    while (continueEntering)
+    {
         cout << "Enter details for a student:" << endl;
         student.getStudent();
 
-        cout << "\nStudent details:" << endl;
+        cout << "\n Student details:" << endl;
         student.showStudent();
 
-        cout << "\nDo you want to enter details for another student? (Y/N): ";
+        cout << "\n Do you want to enter details for another student? (Y/N): ";
         cin >> choice;
 
-        if (choice != 'Y' && choice != 'y') {
+        if (choice != 'Y' && choice != 'y')
+        {
             continueEntering = false;
         }
     }
 
     return 0;
-}*/
+}

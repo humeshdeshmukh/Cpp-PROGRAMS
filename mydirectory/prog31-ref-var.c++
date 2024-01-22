@@ -14,4 +14,5 @@ void main()
    modif(a);
    cout << endl
         << "after" << a;
+        return 0;
 }

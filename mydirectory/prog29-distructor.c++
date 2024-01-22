@@ -5,6 +5,9 @@ using namespace std;
 
 class ABC
 {
+private:
+    int objectId;
+
 public:
     ABC(int id) : objectId(id)
     {
@@ -15,9 +18,6 @@ public:
     {
         cout << "Object " << objectId << " destroyed" << endl;
     }
-
-private:
-    int objectId;
 };
 
 int main()

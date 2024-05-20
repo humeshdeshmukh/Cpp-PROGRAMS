@@ -1,6 +1,5 @@
 #include <iostream>
 using namespace std;
-
 class ABC
 {
 private:
@@ -33,7 +32,7 @@ int main()
 {
     ABC a1, a2;
 
-    cout << "After object construction:" << endl;
+    cout << "before object construction:" << endl;
     a1.showab();
     a2.showab();
 

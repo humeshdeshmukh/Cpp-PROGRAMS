@@ -10,7 +10,7 @@ private:
     string college_name;
     string branch;
     int year;
-    int marks[5]; // Use an array to store marks for 5 subjects
+    int marks[5]; 
     float percentage;
     float average;
 
@@ -34,8 +34,7 @@ public:
             cin >> marks[i];
         }
 
-        // Calculate percentage based on the sum of marks and the total possible marks
-        int totalMarks = 500; // Assuming each subject is out of 100
+        int totalMarks = 500; 
         int sum = 0;
         for (int i = 0; i < 5; ++i)
         {

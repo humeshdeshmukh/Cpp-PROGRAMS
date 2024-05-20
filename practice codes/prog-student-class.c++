@@ -43,7 +43,6 @@ public:
         percentage = static_cast<float>(sum) / totalmarks * 100;
         
         average = sum / 5.0;
-    
     }
     void showstudent()
     {

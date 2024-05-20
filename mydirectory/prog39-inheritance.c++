@@ -9,13 +9,13 @@ private:
     void showa()
     {
         cout << endl
-             << "I am in showa";
+             << "I am in show a";
     }
 
     void showp()
     {
         cout << endl
-             << "I am in showp";
+             << "I am in show p";
     }
 
 public:
